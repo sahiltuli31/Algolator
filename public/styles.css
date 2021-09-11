@@ -1,0 +1,282 @@
+/* Content in every component */
+.content{
+  
+  height: fit-content;
+  margin-top: -100vh;
+  margin-left: 25vw;
+  display:block;
+  max-width: 75vw;
+  padding-bottom: 12px;
+}
+.content img{
+  margin-left: 200px;
+}
+.content h1{
+  font-size: 1.4rem;
+  padding-left: 40px;
+}
+.content h3{
+  padding-left: 40px;
+  font-size: 1.2rem;
+  font-weight: 300px;
+  color: rgb(79, 77, 85);
+}
+.content pre{
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: 800;
+  color: rgb(79, 77, 85);
+}
+.content .answer{
+  color: green;
+}
+.GreyBox h4{
+  color:#474444;
+}
+.GreyBox{
+  background-color: #d1c7c7;
+  width: fit-content;
+  padding-left: 20px;
+  margin-left: 40px;
+  border-radius: 10px 12px;
+  box-shadow: 20px #474444;
+}
+.errorr{
+  margin-left: 40px;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: red;
+}
+.content h2{
+  padding-left: 40px;
+  font-size: 1.2rem;
+  font-weight: 300px;
+  color: rgb(79, 77, 85);
+}
+.content button{
+  margin-left: 40px;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 300px;
+  color: rgb(79, 77, 85);
+}
+input[type="text"]
+{
+  font-size: 1rem;
+  font-weight: 300px;
+  color: rgb(79, 77, 85);
+}
+.content h5{
+  display: inline;
+  padding-left: 8px;
+  color: #474444;
+}
+.content input{
+  margin-left: 40px;
+  border-radius: 10%;
+
+}
+.content p{
+  padding-top: 30px;
+  position: relative;
+  top: 20px;
+  text-align: center;
+  color: black;
+}
+.heading-icons{
+  position: relative;
+  top: 10px;
+  color: rgb(64, 149, 218);
+}
+.component-heading{
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(41, 38, 38);
+    letter-spacing: 2.5px;
+}
+.content .reduce{
+  height: 250px;
+}
+/* Home Component */
+.home-img{
+  height: 300px;
+  display: block;
+  margin: auto;
+  padding-top: 40px;
+}
+.HomeIcon{
+  font-size: 2rem;
+  color: rgb(64, 149, 218);
+}
+.head{
+  font-family: 'Lobster', cursive;
+  font-size: 5rem;
+  font-weight: 900;
+  color: rgb(64, 149, 218);
+  text-decoration: none;
+  position: relative;
+  left: 20px;
+}
+.heading{
+  font-family: 'Comfortaa', cursive;
+  font-weight: 900;
+  word-spacing: 1px;
+  font-size: 2.5rem;
+  margin-top: 0px;
+  margin-left: 25px;
+  
+}
+.introo{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    word-spacing: 4px;
+    margin-top: 20px;
+    font-size: 5rem;
+    text-align: left;
+    color: black;
+}
+#intro{
+  font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+  font-size: 2rem;
+  text-align: left;
+    color: black;
+}
+.contact_icons{
+  padding-right: 8px;
+  word-spacing: 5px;
+  margin-left: 650px;
+}
+.contact_icons :hover{
+  color: rgb(64, 149, 218);
+  cursor: pointer;
+} 
+
+#knapsack-img{
+  height: 250px;
+  align-items: center;
+}
+/* SideBar List */
+li h1{
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(35, 34, 37);
+  text-decoration: none!important;
+  font-size: 1.18rem;
+  font-weight: 200;
+  text-align: left;
+  padding: 8px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+.icons{
+color:rgb(64, 149, 218);
+margin-right: 10px;
+
+}
+
+.index:hover {
+  color: black;
+  cursor: pointer;
+}
+/* Animations for sidebar */
+.fade-in {
+	animation: fadeIn 5s;
+  	opacity: 1;
+}
+
+
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 5;
+  }
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+html{
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+}
+ul{
+    list-style: none;
+    margin-left: -20px;
+    padding-top: 0;
+}
+.space{
+  margin-left: 41px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
+
+/* Animations */
+@-webkit-keyframes bg-scrolling-reverse {
+  100% { background-position: 50px 50px; }
+}
+@-moz-keyframes    bg-scrolling-reverse {
+  100% { background-position: 50px 50px; }
+}
+@-o-keyframes      bg-scrolling-reverse {
+  100% { background-position: 50px 50px; }
+}
+@keyframes         bg-scrolling-reverse {
+  100% { background-position:50px 50px; }
+}
+
+@-webkit-keyframes bg-scrolling {
+  0% { background-position: 50px 50px; }
+}
+@-moz-keyframes    bg-scrolling {
+  0% { background-position:50px 50px; }
+}
+@-o-keyframes      bg-scrolling {
+  0% { background-position:50px 50px; }
+}
+@keyframes         bg-scrolling {
+  0% { background-position:50px 50px; }
+}
+
+.SideMenu {
+  
+
+  height: 97.3vh;
+  width: 25vw;
+  border-right: 1px solid;
+  border-right-color: rgb(219, 216, 216);
+  box-shadow: 5px 0 0px -2px #888;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+
+  color: #2e2c2c;
+  font: 400 15px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+  text-align: left;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+  
+  -webkit-animation: bg-scrolling-reverse .92s infinite; 
+  -moz-animation:    bg-scrolling-reverse .92s infinite; 
+  -o-animation:      bg-scrolling-reverse .92s infinite; 
+  animation:         bg-scrolling-reverse .92s infinite; 
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function:    linear;
+  -o-animation-timing-function:      linear;
+  animation-timing-function:         linear;
+  
+}
+.SideMenu h1{
+  font-weight: 700;
+  color: #474444;
+}
